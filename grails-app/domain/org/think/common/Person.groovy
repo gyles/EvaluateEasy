@@ -1,8 +1,9 @@
 package org.think.common
 
+import org.think.security.User
 import org.think.skills.Skill
 
-class Person {
+class Person extends User {
 	
 	String firstName
 	String lastName
